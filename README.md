@@ -21,8 +21,6 @@ Earlier versions of Enghub Room kept a temporary in-memory cache of recent messa
 
 Room settings, saved role assignments, and other records that support persistent features can remain across bot restarts and room recreation. Temporary records may expire according to the feature's settings. We delete personal data when it is no longer needed for the feature or in response to a valid deletion request, subject to applicable legal requirements.
 
-Backups may contain copies of data from the time they were created. Posts made to Discord, including moderation entries, may remain in English Hub according to the server's moderation and retention practices.
-
 ## Access, corrections, and deletion requests
 
 To ask what data Enghub Room holds about you or to request a correction or deletion, send a private message on Discord to @.jenah. Include your Discord user ID and the data or feature your request concerns. We may ask you to verify that the account is yours before disclosing or changing account-linked information.
