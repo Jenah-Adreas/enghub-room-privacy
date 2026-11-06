@@ -11,11 +11,7 @@ Enghub Room is a Discord bot built exclusively for the English Hub Discord serve
 - **Message processing.** In administrator-configured voting channels, Enghub Room checks ordinary posts for text, links, and attachments to decide whether to add voting reactions. In Premium voice-room chats, it checks whether a message qualifies as activity and stores related identifiers, timestamps, or counters. When an authorized moderator deletes a message through the bot's context menu, the bot may include a message excerpt and attachment details in a moderation entry posted to English Hub's Discord log channel.
 - **Content you submit to bot features.** Enghub Room may store content entered through features such as custom pronunciation topics, room welcome messages, and surveys so it can display or deliver that content later.
 
-## Hosting, sharing, and access
-
-Enghub Room runs on an InterServer VPS. Its operational data is stored in SQLite on that VPS, and database backups are kept for recovery. Discord receives the bot's API calls and the content it posts, including moderation entries. Access to a moderation channel is governed by English Hub's Discord permissions.
-
-Earlier versions of Enghub Room kept a temporary in-memory cache of recent message excerpts and attachment information for deleted-message moderation. The updated release removes that cache.
+Enghub Room stores operational data and recovery backups outside Discord on its InterServer host. The bot sends API requests and posts moderation entries to Discord. English Hub's channel permissions determine who can see those entries.
 
 ## Retention
 
