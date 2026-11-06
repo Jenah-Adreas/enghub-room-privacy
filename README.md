@@ -15,9 +15,7 @@ Enghub Room is a Discord bot operated by its independent developer, @.jenah on D
 
 Enghub Room runs on an InterServer VPS. Its operational data is stored in SQLite on that VPS, and database backups are kept for recovery. Discord receives the bot's API calls and the content it posts, including moderation entries. Access to a moderation channel is governed by the server's Discord permissions.
 
-Earlier versions of Enghub Room kept a temporary in-memory cache of recent message excerpts and attachment information for deleted-message moderation. The updated release removes that cache. Where Fact Check or Ask is enabled with Google Gemini, using those features can send the selected message text, the submitted question, or relevant context to Google for processing. Google's published abuse-monitoring policy describes a 55-day retention period for prompts, context, and outputs. Google's unpaid API terms allow submitted content and responses to be used to improve its products and machine-learning technologies.
-
-[Gemini API terms](https://ai.google.dev/gemini-api/terms) · [Gemini API abuse monitoring](https://ai.google.dev/gemini-api/docs/usage-policies)
+Earlier versions of Enghub Room kept a temporary in-memory cache of recent message excerpts and attachment information for deleted-message moderation. The updated release removes that cache.
 
 ## Retention
 
